@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.env
+vectorstore/
+uploads/
+*.zip
+test_api.py
+test_streamlit.py
+test_vulnerable.py
