@@ -1,0 +1,10 @@
+streamlit==1.32.0 
+requests 
+python-dotenv 
+sentence-transformers 
+chromadb 
+bandit 
+tree-sitter==0.21.3 
+tree-sitter-python==0.21.0 
+tree-sitter-javascript==0.21.3 
+torch --index-url https://download.pytorch.org/whl/cpu 
