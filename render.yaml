@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: codemind-ai
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m streamlit run dashboard.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.11.0
